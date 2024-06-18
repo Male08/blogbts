@@ -1,0 +1,62 @@
+* { text-decoration: none ; margin: 0; padding: 0; box-sizing: border-box;}
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: rgb(205, 152, 255);
+}
+html { scroll-behavior: smooth; }
+.btsblog { margin-left: 2.5rem; color: white; }
+nav { background-color:rgb(30, 0, 49); font-size: 23px;}
+li { display: inline-block; align-items: flex-end;}
+header { position: fixed; top: 0; left: 0; right: 0; }
+#jeje { height: 57px;}
+.menu-horizontal { list-style: none; display: flex; justify-content: space-around ; align-items: center;}
+.menu-horizontal li a{ display: block; padding: 15px 20px ; color: white; text-decoration: none;}
+.menu-horizontal li:hover { background-color:rgb(85, 0, 138);}
+.menu-vertical { position: absolute; display: none; list-style: none; width: 200px; background-color:rgb(85, 0,138);}
+.menu-horizontal li:hover .menu-vertical { display: block; }
+.menu-vertical li:hover { background-color:rgb(126, 6, 201); display: block;}
+.home { display: flex; align-items: center; min-height: 100vh; background: url(imagenes/weverse_20240604165211.jpeg) no-repeat; background-size: cover; background-position: center;}
+h1 { background: radial-gradient(circle, rgba(167,100,255,1) 0%, rgba(77,1,147,1) 100%, rgba(234,218,249,1) 100%); display: flex; justify-content: center; color: white; }
+p {display: flex; text-align: center; }
+img { height: 300px; padding: 0px;}
+.Presentación { background-color:rgb(234,218,249); height: 300px; width: 650px; margin: 10px;display: flex ;margin-left: auto; margin-right: auto; transition-duration: 1s;}
+.Presentación:hover { transform: scale(1.1);}
+.texto { display: inline-block; padding-top: 25px; padding-left: 10px; justify-content: left; }
+.textointro { margin-left: 20px; margin-right: 20px;}
+#trad1pic { height: 400px ;display: flex; padding: 15px; border-radius: 30px;}
+#trad { display:flex; }
+#tituloyptrad { padding-top:25px; padding-right: 20px;}
+.introtrad { display: inline-block; text-align: justify;padding-top: 10px;}
+#title { text-decoration: underline; text-align: center; }
+#introdoc { margin-top: 10px;}
+.Docs { width: 650px; height: 200px; background-color:rgb(234,218,249); margin:auto; padding: 10px; margin-top: 15px; display: flex; justify-content: space-between; transition-duration: 1s;}
+.Docs:hover { transform: scale(1.1)}
+.h1docu { width: 800px; margin: auto; padding: 5px; margin-top: 15px; }
+.docuimg { height: 180px; ;}
+.textodocu { display: inline-block; text-align: left; text-align: top; }
+#resudocu { display: flex; text-align: left;}
+#rookiekimg { height: 160px; margin-top: auto; margin-bottom: auto; }
+#contenedor {display: flex;}
+.textot { padding-top:25px; padding-right: 20px; text-align: center;}
+.foto { height: 400px ;display: flex; padding: 15px; border-radius: 30px}
+.ptrad {  text-align: left; margin-left: 20px;}
+.introblog { height: auto; width: 400px; display: inline-block; align-self: top; padding-left: 20px;}
+.introblog p { text-align: left;}
+.introblog h2 { font-size: 3rem; font-family: Tahoma; color: purple; }
+.introblog h4 { font-size: 2rcap; }
+#titulitosn { padding-top: 57px; }
+#titulitoss { padding-top: 57px; }
+#titulitosy { padding-top: 57px; }
+#titulitosh { padding-top: 57px; }
+#titulitosj { padding-top: 57px; }
+#titulitost { padding-top: 57px; }
+#titulitosk { padding-top: 57px; }
+#titulito { padding-top: 57px; }
+main { margin: 0 auto;}
+.Plataformas { background-color:rgb(234,218,249); display: inline-block; text-align: center; height: 200px; width: 400px; margin: 20px; transition-duration: 1s;}
+.Plataformas:hover { transform: scale(1.1)}
+.apps { margin-top: 50px; margin-bottom: 15px;}
+.biti { color: blueviolet;}
+#insta { width: 1287px; }
